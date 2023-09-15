@@ -1,7 +1,7 @@
 # formTest
 
 리액트 파일입니다. 
-**formtest -> src -> App.js** 보시면 제가 form 태그들로
+**formTest->formtest -> src -> App.js** 보시면 제가 form 태그들로
 여러가지 폼 형태 만들어두었습니다..!
 
 
