@@ -1,0 +1,16 @@
+/* 라디오 버튼 숨기기 */
+input[type="radio"] {
+  display: none;
+}
+
+/* 라디오 버튼 라벨 스타일 설정 */
+label {
+  cursor: pointer;
+  font-size: 16px; /* 원하는 글꼴 크기로 조정 */
+}
+
+/* 라디오 버튼이 선택되었을 때의 스타일 */
+input[type="radio"]:checked + label {
+  color: #007bff; /* 선택되었을 때의 글자 색상 */
+  font-weight: bold; /* 선택되었을 때 글자 굵게 설정 (선택 사항) */
+}

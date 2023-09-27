@@ -1,0 +1,32 @@
+input[type="checkbox"] {
+  display: none;
+}
+
+.checkStyle {
+  /* border: 1px solid #dcdcdc; */
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+.checkStyle img {
+  width: 200px;
+}
+
+/* input[type="checkbox"]:checked + .checkboxStyle {
+  width: 500px;
+} */
+
+img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.checkStyle.checked .img {
+  /* border: 1px solid red; */
+  /* 체크된 상태일 때의 테두리 스타일을 지정하세요 */
+}

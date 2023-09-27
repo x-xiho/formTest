@@ -1,0 +1,62 @@
+.p1-container {
+  text-align: center;
+}
+
+.p2-container {
+  text-align: center;
+}
+
+.p3-container {
+  text-align: center;
+}
+
+.textarea {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0px 50px 0px;
+}
+
+.num {
+  font-weight: bold;
+  color: gray;
+}
+
+.qurry {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.next {
+  text-decoration: none;
+  color: black;
+}
+
+.pageNumber {
+  margin-top: 30px;
+}
+
+.next {
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 100px;
+
+  z-index: 15;
+  transition: all 1s;
+}
+
+
+.pageNumber{
+  color:gray;
+  opacity: 80;
+}
+.next:hover a{
+  background-color: gray;
+  color: white;
+  border-color: gray;
+  transform: scale(1.2);
+}

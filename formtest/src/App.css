@@ -1,7 +1,44 @@
-fieldset{
-  width: 500px;
+
+.div{
+  text-align: center;
+  margin: 0px;
 }
 
-legend{
-  font-weight: bold;
+.radioButtonStyle{
+  width: 600px;
+  margin: 0px auto; /* 수평 가운데 정렬을 위해 추가 */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3개의 열을 가진 그리드로 설정 */
+  grid-gap: 10px; /* 요소 사이의 간격 설정 */
+  align-items: center;
+ justify-content: center; 
 }
+
+.radioStyle{
+  font-size: 14px;
+  margin:0px 5px 0px 5px;
+}
+
+
+.radioStyle [type="radio"]{
+  display: none;
+}
+
+.radioStyle span{
+  text-align: center;
+  height:50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid #dcdcdc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.radioStyle [type="radio"]:checked + span{
+  border:3px solid #ee8432;
+  color:#ee8432;
+  font-weight: 700;
+}
+
