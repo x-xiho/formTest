@@ -53,8 +53,8 @@ function Page3() {
       </div>
 
       <div className='pageNumber'>3 / 10</div>
-      <Link to="/" className='pre'>이전페이지</Link>
-      <Link to="/page3" className='Next'>다음페이지</Link>
+      <Link to="/page2" className='pre'>이전페이지</Link>
+      <Link to="/page4" className='Next'>다음페이지</Link>
     </div>
   );
 }

@@ -1,5 +1,4 @@
 
-// 간단한 서버 코드
 const express = require('express')
 const app = express()
 const cors = require('cors')
@@ -9,8 +8,10 @@ app.use(cors()); //cors 허용
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
-//
-const formData = [];
+////////////////////////////////
+
+
+const formData = []; // 유저데이터 저장 배열
 
 app.get('/api/getFormData', function (req, res) {
   res.json(formData);
